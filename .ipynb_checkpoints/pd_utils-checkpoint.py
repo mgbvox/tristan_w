@@ -5,8 +5,6 @@ from tqdm import tqdm
 import pycountry
 import pycountry_convert as pc
 
-
-
 def isfloat(x):
     try:
         a = float(x)
@@ -25,11 +23,13 @@ def isint(x):
         return a == b
     
 def to_float(x): 
-    try: 
-        res = float(x)
-        return res
-    except:
-        return np.nan
+    if x:
+        try: 
+            res = float(x)
+            return res
+        except:
+            return np.nan
+    return np.nan
 
 def search(term, df):
     res = []

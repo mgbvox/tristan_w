@@ -1,0 +1,36 @@
+Fertility:
+SP.DYN.IMRT.IN
+Infant mortality (/1k births per year)
+
+SP.ADO.TFRT
+Adolescent fertility rate (per 1,000 women ages 15-19)
+
+
+Violence:
+VC.IHR.PSRC.P5
+Intentional homicides (per 100,000 people)
+
+
+
+Education:
+SE.PRM.TENR
+Adjusted net enrollment rate, primary (% of primary school age children)
+
+SE.PRM.TENR.FE
+Adjusted net enrollment rate, primary, female (% of primary school age children)
+
+SE.PRM.TENR.MA
+Adjusted net enrollment rate, primary, male (% of primary school age children)
+
+
+
+
+Energy:
+EN.ATM.GHGT.KT.CE
+Total greenhouse gas emissions (kt of CO2 equivalent)
+
+EG.USE.ELEC.KH.PC
+Electric power consumption (kWh per capita)
+
+EG.ELC.ACCS.ZS
+Access to electricity (% of population)
